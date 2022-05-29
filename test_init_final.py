@@ -426,7 +426,7 @@ def init():
 		scope = ['https://spreadsheets.google.com/feeds', 'https://www.googleapis.com/auth/drive'] #정산
 		credentials = ServiceAccountCredentials.from_json_keyfile_name(basicSetting[10], scope) #정산
 
-<module>
+init()
 
 channel = ''
 
